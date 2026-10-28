@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qymibydeeu-realtimedw_jd290"
+version = "0.1.0"
+description = "对内容做归一化与分片比对，找出实时数仓架构师·偏好数据的成对噪声上的重复项并按相似度归并"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "qymibydeeu" }]
+keywords = ["cli", "analysis", "observability", "evaluation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://qymibydeeu.github.io"
+Repository = "https://github.com/qymibydeeu/realtimedw_jd290"
+Issues = "https://github.com/qymibydeeu/realtimedw_jd290/issues"
+
+[project.scripts]
+realtimedw_jd290 = "realtimedw_jd290:main"
+
+[tool.setuptools]
+py-modules = ["realtimedw_jd290"]
